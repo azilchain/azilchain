@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import Header from "./components/header/Header";
+import Greeting from "./components/greeting/Greeting";
+
 import {useLocalStorage} from "./hooks/useLocalStorage";
 import {StyleProvider} from "./contexts/StyleContext";
 
@@ -19,6 +21,7 @@ function App() {
     <div className={isDark ? "dark-mode" : undefined}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header/>
+        <Greeting/>
       </StyleProvider>
       </div>
   );

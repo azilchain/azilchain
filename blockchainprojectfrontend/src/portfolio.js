@@ -7,15 +7,15 @@
 // import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
-  // username: "Haris Aqeel",
-  // title: "Hi all, I'm Haris",
-  // subTitle: emoji(
-  //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
-  // ),
+  username: "Haris Aqeel",
+  title: "Welcome to new era of blockchains",
+  subTitle: 
+    " Welcome into the world of blockchains. We have so many great blockchains in the world then what Azil chain is going to do ? That's what you will be thinking in your head but stay with us and you will know. This blockchain is a hetrogenous, multi chain framework. it's like a zero chain and interpolerable."
+  ,
   // resumeLink:
   //   "https://drive.google.com/file/d/1tUXlEkicMhsgiX_uaodvOAOPdWaPNEJU/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
