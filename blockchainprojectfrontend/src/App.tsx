@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import Header from "./components/header/Header";
 import Greeting from "./components/greeting/Greeting";
-
+import Footer from './components/footer/Footer'
 import {useLocalStorage} from "./hooks/useLocalStorage";
 import {StyleProvider} from "./contexts/StyleContext";
 
@@ -22,6 +22,7 @@ function App() {
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header/>
         <Greeting/>
+        <Footer/>
       </StyleProvider>
       </div>
   );
