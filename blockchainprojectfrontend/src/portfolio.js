@@ -7,18 +7,15 @@
 // import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: false // set to false to use static SVG
+  animated: false, // set to false to use static SVG
 };
 
 const greeting = {
-  username: "Haris Aqeel",
-  title: "Welcome to new era of blockchains",
-  subTitle: 
-    " Welcome into the world of blockchains. We have so many great blockchains in the world then what Azil chain is going to do ? That's what you will be thinking in your head but stay with us and you will know. This blockchain is a hetrogenous, multi chain framework. it's like a zero chain and interpolerable."
-  ,
-  // resumeLink:
-  //   "https://drive.google.com/file/d/1tUXlEkicMhsgiX_uaodvOAOPdWaPNEJU/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+  welcome: "WELCOME TO AZILCHAIN",
+  title: "A Homogenous, Multichain, Interoperable Framework.",
+  subTitle:
+    "Azil-chain is a failure proof multiChain protocol and a combination of tools required for reshaping decentralization.",
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -29,100 +26,97 @@ const socialMediaLinks = {
   // gmail: "harisaqeel.2001@gmail.com",
   // facebook: "https://www.facebook.com/haris.aqeel.50",
   // // Instagram and Twitter are also supported in the links!
-  display: true // Set true to display this section, defaults to false
+  display: true, // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
-const communitySection = {
-//   title: "What I do",
-//   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-//   skills: [
-//     emoji(
-//       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
-//     ),
-//     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-//     emoji(
-//       "⚡ Integration of third party services such as Firebase/ AWS / Azure"
-//     )
-//   ],
+const skillsSection = {
+  title: "What I do",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  skills: [
+    "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
+    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
 
-//   /* Make Sure to include correct Font Awesome Classname to view your icon
-// https://fontawesome.com/icons?d=gallery */
+    "⚡ Integration of third party services such as Firebase/ AWS / Azure",
+  ],
 
-//   softwareSkills: [
-//     {
-//       skillName: "html-5",
-//       fontAwesomeClassname: "fab fa-html5"
-//     },
-//     {
-//       skillName: "css3",
-//       fontAwesomeClassname: "fab fa-css3-alt"
-//     },
-//     {
-//       skillName: "sass",
-//       fontAwesomeClassname: "fab fa-sass"
-//     },
-//     {
-//       skillName: "JavaScript",
-//       fontAwesomeClassname: "fab fa-js"
-//     },
-//     {
-//       skillName: "reactjs",
-//       fontAwesomeClassname: "fab fa-react"
-//     },
-//     {
-//       skillName: "nodejs",
-//       fontAwesomeClassname: "fab fa-node"
-//     },
-//     {
-//       skillName: "npm",
-//       fontAwesomeClassname: "fab fa-npm"
-//     },
-//     {
-//       skillName: "sql-database",
-//       fontAwesomeClassname: "fas fa-database"
-//     },
-//     {
-//       skillName: "aws",
-//       fontAwesomeClassname: "fab fa-aws"
-//     },
-//     {
-//       skillName: "firebase",
-//       fontAwesomeClassname: "fas fa-fire"
-//     },
-//     {
-//       skillName: "python",
-//       fontAwesomeClassname: "fab fa-python"
-//     },
-//     {
-//       skillName: "docker",
-//       fontAwesomeClassname: "fab fa-docker"
-//     }
-//   ],
-  display: true // Set false to hide this section, defaults to true
+  //   /* Make Sure to include correct Font Awesome Classname to view your icon
+  // https://fontawesome.com/icons?d=gallery */
+
+  //   softwareSkills: [
+  //     {
+  //       skillName: "html-5",
+  //       fontAwesomeClassname: "fab fa-html5"
+  //     },
+  //     {
+  //       skillName: "css3",
+  //       fontAwesomeClassname: "fab fa-css3-alt"
+  //     },
+  //     {
+  //       skillName: "sass",
+  //       fontAwesomeClassname: "fab fa-sass"
+  //     },
+  //     {
+  //       skillName: "JavaScript",
+  //       fontAwesomeClassname: "fab fa-js"
+  //     },
+  //     {
+  //       skillName: "reactjs",
+  //       fontAwesomeClassname: "fab fa-react"
+  //     },
+  //     {
+  //       skillName: "nodejs",
+  //       fontAwesomeClassname: "fab fa-node"
+  //     },
+  //     {
+  //       skillName: "npm",
+  //       fontAwesomeClassname: "fab fa-npm"
+  //     },
+  //     {
+  //       skillName: "sql-database",
+  //       fontAwesomeClassname: "fas fa-database"
+  //     },
+  //     {
+  //       skillName: "aws",
+  //       fontAwesomeClassname: "fab fa-aws"
+  //     },
+  //     {
+  //       skillName: "firebase",
+  //       fontAwesomeClassname: "fas fa-fire"
+  //     },
+  //     {
+  //       skillName: "python",
+  //       fontAwesomeClassname: "fab fa-python"
+  //     },
+  //     {
+  //       skillName: "docker",
+  //       fontAwesomeClassname: "fab fa-docker"
+  //     }
+  //   ],
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  // schools: [
-  //   {
-  //     schoolName: "NED University",
-  //     logo: require("./assets/images/nedLogo.png"),
-  //     subHeader: "Software Engineering",
-  //     duration: "September 2019 - Today",
-  //     desc: "Participated in many projects."
-  //   },
-  //   {
-  //     schoolName: "Adamjee Govt. Science College",
-  //     logo: require("./assets/images/adamjeeLogo.jpeg"),
-  //     subHeader: "Computer Science",
-  //     duration: "April 2017 - April 2019",
-  //     desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ..."
-  //   }
-  // ]
+  schools: [
+    {
+      schoolName: "NED University",
+      // logo: require("./assets/images/nedLogo.png"),
+      subHeader: "Software Engineering",
+      duration: "September 2019 - Today",
+      desc: "Participated in many projects.",
+    },
+    {
+      schoolName: "Adamjee Govt. Science College",
+      // logo: require("./assets/images/adamjeeLogo.jpeg"),
+      subHeader: "Computer Science",
+      duration: "April 2017 - April 2019",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -184,7 +178,7 @@ To know how to get github key look at readme.md */
 
 const aboutSection = {
   // showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -227,7 +221,6 @@ const achievementSection = {
   // title: emoji("Achievements And Certifications 🏆 "),
   // subtitle:
   //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   // achievementsCards: [
   //   {
   //     title: "Google Code-In Finalist",
@@ -261,7 +254,6 @@ const achievementSection = {
   //       }
   //     ]
   //   },
-
   //   {
   //     title: "PWA Web App Developer",
   //     subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -299,7 +291,7 @@ const blogSection = {
   //       "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
   //   }
   // ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -309,7 +301,6 @@ const talkSection = {
   // subtitle: emoji(
   //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   // ),
-
   // talks: [
   //   {
   //     title: "Build Actions For Google Assistant",
@@ -331,14 +322,11 @@ const contactInfo = {
   // email_address: "harisaqeel.2001@gmail.com"
 };
 
-
-
-
 export {
   illustration,
   greeting,
   socialMediaLinks,
-  communitySection,
+  skillsSection,
   educationInfo,
   techStack,
   technologicalSet,
@@ -348,5 +336,4 @@ export {
   blogSection,
   talkSection,
   contactInfo,
-  
 };

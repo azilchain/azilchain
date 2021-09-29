@@ -1,0 +1,189 @@
+
+.main-skill {
+  margin-top: 10rem;
+  background-color: #000;
+  height: auto;
+  width: 85%;
+
+
+}
+
+.skills-main-div {
+  display: flex;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.skills-text-div {
+  margin-left: 30px;
+}
+
+.skills-main-div > * {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.skills-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+.subTitle {
+  color: #868e96;
+}
+
+.image {
+  padding-bottom: 0.2rem;
+  margin-bottom: 0;
+}
+
+.skills-image-div span {
+  color: hsla(0,0%,100%,0.82);
+  margin-left: 10px;
+}
+
+.skills-image-div {
+  margin-left: 90px;
+}
+
+
+.skill-h1 {
+  font-size: 3.5rem;
+}
+
+.skill-h5 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: #b1acac;
+  font-weight: 400;
+
+}
+
+.skill-h2 {
+  font-size: 1.2rem;
+  word-spacing: 2px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  line-height: 2rem;
+  color: hsla(0,0%,100%,0.82);
+
+
+}
+
+.skill-button{
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 550;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .main-skill {
+    height: auto;
+    width: auto;
+  }
+  .skills-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: column;
+  }
+  .skills-text-div {
+    margin-left: 0px;
+    margin: 20px;
+  }
+  .skills-text {
+    font-size: 16px;
+  }
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .skills-image-div {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    order: 2;
+    justify-content: space-between;
+    
+  }
+
+  .image {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+
+  .skills-image-div span {
+    color: hsla(0,0%,100%,0.82);
+    margin-left: 0px;
+  }
+
+  .skill-button{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .skill-h1 {
+    font-size: 2rem;
+  }
+  
+  .skill-h5 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    color: #b1acac;
+    font-weight: 400;
+  
+  }
+  
+  .skill-h2 {
+    font-size: 1rem;
+    word-spacing: .7px;
+    line-height: 1.4rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: hsla(0,0%,100%,0.82);
+  }
+
+  .skills-image-div {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    order: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .skill-button{
+    height: 60px;
+  }
+  
+
+}

@@ -1,0 +1,30 @@
+.feature-h1{
+    margin: 5px 0;
+}
+
+.feature-p-handler{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.feature-p{
+    font-size: 1.4rem;
+}
+
+.bg-feature{
+    background: hsla(0,0%,100%,0.1);
+    width: 70px;
+    height: 70px;
+    margin: 10px 0px;
+    position: relative;
+    border-radius: 16px;
+}
+
+.bg-feature img {
+    width: 90px;
+    position: absolute;
+    left: 15px;
+    top: 7px;
+}
